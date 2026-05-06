@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auren — Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(180deg, #1e1235 0%, #170e2a 35%, #13091f 60%, #12091f 100%);
+      background-attachment: fixed;
+      color: #ebe5f2;
+      font-family: 'Instrument Sans', system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    /* ── Header ── */
+    header {
+      text-align: center;
+      padding: 72px 0 56px;
+    }
+
+    .logo-mark {
+      display: inline-block;
+      width: 52px;
+      height: 52px;
+      margin-bottom: 20px;
+    }
+
+    .app-name {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      font-size: 2.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #ebe5f2;
+      margin-bottom: 10px;
+    }
+
+    .app-subtitle {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 400;
+      font-size: 1.05rem;
+      color: rgba(235, 229, 242, 0.55);
+      letter-spacing: 0.02em;
+    }
+
+    /* ── Section cards ── */
+    section {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 18px;
+      padding: 36px 32px;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(196, 181, 253, 0.7);
+      margin-bottom: 18px;
+    }
+
+    section p {
+      font-size: 0.975rem;
+      color: rgba(235, 229, 242, 0.8);
+      line-height: 1.75;
+    }
+
+    /* ── Contact ── */
+    .contact-link {
+      display: inline-block;
+      margin-top: 14px;
+      color: #c4b5fd;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.975rem;
+      border-bottom: 1px solid rgba(196, 181, 253, 0.3);
+      padding-bottom: 1px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .contact-link:hover {
+      color: #ddd6fe;
+      border-color: rgba(196, 181, 253, 0.7);
+    }
+
+    /* ── FAQs ── */
+    .faq-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .faq-list li {}
+
+    .faq-q {
+      font-weight: 600;
+      font-size: 0.975rem;
+      color: #ebe5f2;
+      margin-bottom: 6px;
+    }
+
+    .faq-a {
+      font-size: 0.93rem;
+      color: rgba(235, 229, 242, 0.65);
+      line-height: 1.75;
+    }
+
+    /* ── Privacy ── */
+    .privacy-link {
+      color: #c4b5fd;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.975rem;
+      border-bottom: 1px solid rgba(196, 181, 253, 0.3);
+      padding-bottom: 1px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .privacy-link:hover {
+      color: #ddd6fe;
+      border-color: rgba(196, 181, 253, 0.7);
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 0.82rem;
+      color: rgba(235, 229, 242, 0.25);
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      header {
+        padding: 52px 0 40px;
+      }
+      .app-name {
+        font-size: 2rem;
+      }
+      section {
+        padding: 28px 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <!-- Auren logo mark — radial gradient orb matching the app -->
+      <svg class="logo-mark" viewBox="0 0 256 248" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <radialGradient id="lg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(128 124) rotate(90) scale(124)">
+            <stop offset="0" stop-color="#FFFFFF"/>
+            <stop offset="0.35" stop-color="#DDD6FE" stop-opacity="0.85"/>
+            <stop offset="0.7" stop-color="#A78BFA" stop-opacity="0.55"/>
+            <stop offset="1" stop-color="#6366F1"/>
+          </radialGradient>
+        </defs>
+        <circle cx="128" cy="124" r="124" fill="url(#lg)"/>
+      </svg>
+
+      <h1 class="app-name">Auren</h1>
+      <p class="app-subtitle">Prayer that reflects your actual life.</p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>Auren helps you create honest, personal prayers based on what you're actually going through. No scripts. No templates. Just real moments.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Need help? Reach out anytime.</p>
+      <a class="contact-link" href="mailto:support@auren.app">support@auren.app</a>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+      <ul class="faq-list">
+        <li>
+          <p class="faq-q">How does Auren work?</p>
+          <p class="faq-a">You share what you're going through — a struggle, a feeling, a moment of gratitude — and Auren generates a prayer that reflects it honestly. No scripts, no generic language. Just something real.</p>
+        </li>
+        <li>
+          <p class="faq-q">Do I need a subscription?</p>
+          <p class="faq-a">Your first moment is free. After that, Auren requires a subscription to keep coming back. New subscribers get a 3-day free trial before any charge.</p>
+        </li>
+        <li>
+          <p class="faq-q">How do I cancel my subscription?</p>
+          <p class="faq-a">You can cancel anytime through your iPhone's Settings → Apple ID → Subscriptions. Cancelling stops future charges and keeps your access active until the end of the billing period.</p>
+        </li>
+        <li>
+          <p class="faq-q">Is my data private?</p>
+          <p class="faq-a">What you share in Auren is used only to generate your prayer in that moment. We don't store your personal entries or sell your data to anyone.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <p><a class="privacy-link" href="#">View Privacy Policy</a></p>
+    </section>
+
+    <footer>
+      &copy; 2026 Auren
+    </footer>
+
+  </div>
+</body>
+</html>
